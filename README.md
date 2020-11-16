@@ -1,7 +1,8 @@
 # erikhoward/fishfiles
 
 This repo contains opinionated functions, aliases, abbreviations used in my [fish shell](https://fishshell.com/).
-[![Version]]
+
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/erikhoward/fishfiles?label=current%20release&style=flat-square)
 
 # Installation
 Use [fisher](https://github.com/jorgebucaran/fisher) to install:
