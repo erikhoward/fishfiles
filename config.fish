@@ -42,16 +42,22 @@ else
     end
 
     # aliases
-    alias nvim="~/bin/nvim.appimage"
-    alias docker="sudo podman"
-    alias podman="sudo podman"
-
-    # directory
-    abbr -a -- - 'cd -'
     alias ..="cd .."
     alias ..2="cd ../.."
     alias ..3="cd ../../../"
     alias ..4="cd ../../../../"
     alias ..5="cd ../../../../../"
+    alias docker="sudo podman"
+    alias h="history"
+    alias hs="history --search"
+    alias k="kubectl"
+    alias nvim="~/bin/nvim.appimage"
+    alias p="pwd"
+    alias podman="sudo podman"
+    alias t="tail -f"
+
+
+    # directory
+    abbr -a -- - 'cd -'
 
 end
