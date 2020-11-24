@@ -18,7 +18,7 @@ else
     set -gx LC_CTYPE en_US.UTF-8
 
     # global paths
-    set -gx PATH /usr/local/bin $HOME/bin /usr/local/go/bin /usr/bin /bin /usr/sbin /sbin $HOME/bin $HOME/.local/bin $PATH
+    set -gx PATH /usr/local/bin $HOME/bin $HOME/.nimble/bin /usr/local/go/bin /usr/bin /bin /usr/sbin /sbin $HOME/bin $HOME/.local/bin $PATH
     set -gx MANPATH /usr/share/man /usr/local/man /usr/local/share/man $MANPATH
     if test -d $HOME/.local/share/man
         set -gx MANPATH $MANPATH $HOME/.local/share/man
