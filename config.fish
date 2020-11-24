@@ -43,6 +43,8 @@ else
 
     # aliases
     alias nvim="~/bin/nvim.appimage"
+    alias docker="sudo podman"
+    alias podman="sudo podman"
 
     # directory
     abbr -a -- - 'cd -'
