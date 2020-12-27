@@ -38,7 +38,7 @@ else
 
     # Rust
     if test -d $HOME/.cargo
-        et PATH $PATH $HOME/.cargo/bin
+       set PATH $PATH $HOME/.cargo/bin
     end
 
     # aliases
